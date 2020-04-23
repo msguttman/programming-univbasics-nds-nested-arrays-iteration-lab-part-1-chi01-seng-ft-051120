@@ -14,7 +14,7 @@ def find_even_values(src)
     end
     outer_count += 1
   end
-  puts even_values
+  p even_values
 end
 
 find_even_values([ [10, 11], [99, 50, 3, 4], [23, 41] ])
