@@ -6,7 +6,7 @@ def find_even_values(src)
   outer_count = 0
   while outer_count < src.count do
     inner_count = 0
-    while inner_count < src[outer_count][inner_count] do
+    while inner_count < src[outer_count].count do
       if src[outer_count][inner_count] % 2 == 0
         even_values << src[outer_count][inner_count]
       end
