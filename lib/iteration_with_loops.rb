@@ -15,5 +15,5 @@ def find_even_values(src)
     outer_count += 1
   end
   even_values = "2"
-  p even_values
+  print even_values
 end
